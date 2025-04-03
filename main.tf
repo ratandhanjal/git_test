@@ -1,4 +1,6 @@
 resource "azurerm_resource_group" "example" {
-  name     = "MyResourceGroup"
+  name     = ["MyResourceGroup"]
   location = "East US"
 }
+
+
